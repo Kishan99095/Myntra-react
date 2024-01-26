@@ -7,6 +7,8 @@ import Home from './Component/Home.jsx'
 import Product from './Component/Product.jsx'
 import Detail from './Component/Detail.jsx'
 import Bag from './Component/Bag.jsx'
+import SignUp from './Component/SignUp.jsx'
+
 
 
 
@@ -31,7 +33,12 @@ const router = createBrowserRouter([
       {
         path:"/bag",
         element:<Bag />
-      }
+      },
+      {
+        path:"/signup",
+        element:<SignUp />
+      },
+     
       
     ]
     }

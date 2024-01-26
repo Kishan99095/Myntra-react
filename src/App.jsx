@@ -18,7 +18,8 @@ function App() {
       <Provider store={store}>
         {/* <Navbar_2/> */}
         <Navbar />
-        <Outlet />
+       
+      <Outlet/>
       </Provider>
     </>
   );
